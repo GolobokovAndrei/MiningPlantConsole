@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5ce3f2eb434f41eabd980372d24cec5f" Name="Diagram1">
+        <EntityTypeShape EntityType="MiningPlantModel.Destinations" Width="1.5" PointX="3.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningPlantModel.Employees" Width="1.5" PointX="3.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningPlantModel.EquipmentMaterials" Width="1.5" PointX="8.25" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningPlantModel.MilitaryContracts" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningPlantModel.Minerals" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningPlantModel.MineralTracking" Width="1.5" PointX="6" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningPlantModel.OperationTypes" Width="1.5" PointX="3.75" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningPlantModel.Orders" Width="1.5" PointX="6" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningPlantModel.OrderStatuses" Width="1.5" PointX="3.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningPlantModel.Roles" Width="1.5" PointX="1.5" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningPlantModel.SocialPrograms" Width="1.5" PointX="9" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningPlantModel.Suppliers" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningPlantModel.sysdiagrams" Width="1.5" PointX="8.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningPlantModel.Taxes" Width="1.5" PointX="11.25" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningPlantModel.Users" Width="1.5" PointX="3.75" PointY="21.625" IsExpanded="true" />
+        <AssociationConnector Association="MiningPlantModel.FK__MineralTr__Desti__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningPlantModel.FK__Employees__RoleI__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningPlantModel.FK__MilitaryC__Emplo__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningPlantModel.FK__Orders__Employee__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningPlantModel.FK__SocialPro__Respo__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningPlantModel.FK__Equipment__Suppl__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningPlantModel.FK__Equipment__UsedI__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningPlantModel.FK__Equipment__UsedI__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningPlantModel.FK__MilitaryC__Miner__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningPlantModel.FK__MilitaryC__Statu__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningPlantModel.FK__Taxes__ContractI__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningPlantModel.FK__MineralTr__Miner__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningPlantModel.FK__Orders__MineralI__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningPlantModel.FK__MineralTr__Opera__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningPlantModel.FK__Orders__StatusID__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningPlantModel.FK__Taxes__OrderID__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningPlantModel.FK__Users__RoleID__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningPlantModel.FK__Taxes__ProgramID__60A75C0F" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

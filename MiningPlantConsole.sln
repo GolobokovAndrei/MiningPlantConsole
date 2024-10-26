@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiningPlantConsole", "MiningPlantConsole.csproj", "{3DE9E4B3-30E9-4213-84B0-615B1E8E4600}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Password", "..\Password\Password.csproj", "{3476D105-987B-4DC8-B365-7DC0E1033121}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DE9E4B3-30E9-4213-84B0-615B1E8E4600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE9E4B3-30E9-4213-84B0-615B1E8E4600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE9E4B3-30E9-4213-84B0-615B1E8E4600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE9E4B3-30E9-4213-84B0-615B1E8E4600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3476D105-987B-4DC8-B365-7DC0E1033121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3476D105-987B-4DC8-B365-7DC0E1033121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3476D105-987B-4DC8-B365-7DC0E1033121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3476D105-987B-4DC8-B365-7DC0E1033121}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4645B3D-E1F8-40B2-97C7-62F28E974468}
+	EndGlobalSection
+EndGlobal
